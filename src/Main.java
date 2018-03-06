@@ -3,9 +3,19 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Customer customer = new Customer("Enda Moore");
+//		Customer defaultCustomer = new Customer();
+//		System.out.println(defaultCustomer.getName());
+//		System.out.println(defaultCustomer.getAddress());
+//		System.out.println(defaultCustomer.getAccountNumber());
 		
-		System.out.println("Bank Of Enda");
-		System.out.println(customer);
+		Customer customerEnda = new Customer("Enda", "Finglas", 1);
+		System.out.println(customerEnda.getName());
+		System.out.println(customerEnda.getAddress());
+		System.out.println(customerEnda.getAccountNumber());
+		
+		
+	
 	}
+	
+
 }
