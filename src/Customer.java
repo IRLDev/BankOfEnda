@@ -1,74 +1,35 @@
 
 public class Customer {
 	
-	private String account;
-	private String firstName;
-	private String lastName;
+
+	private String name;
+	private String address;
 	private int accountNumber;
-	private String branch;
+
+//	public Customer() {
+//		this("Default Name", "Default Address", 1000);
+//		System.out.println("Empty constructor called");
+//		
+//	}
 	
+	public Customer(String name, String address, int accountNumber) {
+		System.out.println("Customer constructor with parameters called");
+		this.name = name;
+		this.address = address;
+		this.accountNumber = 0;
+	}
 
-	public Customer(String f, String l) {
-		firstName = f;
-		lastName = l;
-		
-		account = new Account();
+	public String getName() {
+		return name;
 	}
 
 
-	public String getAccount() {
-		return account;
+	public String getAddress() {
+		return address;
 	}
-
-
-	public void setAccount(String account) {
-		this.account = account;
-	}
-
-
-	public String getFirstName() {
-		return firstName;
-	}
-
-
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
-
-
-	public String getLastName() {
-		return lastName;
-	}
-
-
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
-	}
-
 
 	public int getAccountNumber() {
 		return accountNumber;
 	}
-
-
-	public void setAccountNumber(int accountNumber) {
-		this.accountNumber = accountNumber;
-	}
-
-
-	public String getBranch() {
-		return branch;
-	}
-
-
-	public void setBranch(String branch) {
-		this.branch = branch;
-	}
 	
-	
-
-	
-	
-	
-
 }
