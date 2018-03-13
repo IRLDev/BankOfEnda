@@ -8,7 +8,7 @@ public class Main {
 //		System.out.println(defaultCustomer.getAddress());
 //		System.out.println(defaultCustomer.getAccountNumber());
 		
-		Customer customerEnda = new Customer("Enda", "Finglas", 1);
+		Customer customerEnda = new Customer("Enda", "Finglas", 1234);
 		System.out.println(customerEnda.getName());
 		System.out.println(customerEnda.getAddress());
 		System.out.println(customerEnda.getAccountNumber());
