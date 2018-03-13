@@ -12,24 +12,24 @@ public class Account extends Customer {
 			this.withdraw = withdraw;
 		}
 		
-		public void balance(double balance) {
-			this.balance = balance;
-			System.out.println("Current Balance = " + balance);
-		}
-	
-		public void deposit(double Amount) {
-			this.balance += Amount;
-			System.out.println("Deposit of " + Amount + "New balance = " + this.balance);
-		}
-	
-		public void withdrawal(double withdrawalAmount) {
-			if(this.balance - withdrawalAmount <0) {
-				System.out.println("Only " + this.balance + " available. Withdrawal not processed");
-			} else {
-				this.balance -= withdrawalAmount;
-				System.out.println("Withdrawal of " + withdrawalAmount + " process. Remaining balance = " + this.balance);
-			}
-		}
+//		public void balance(double balance) {
+//			this.balance = balance;
+//			System.out.println("Current Balance = " + balance);
+//		}
+//	
+//		public void deposit(double Amount) {
+//			this.balance += Amount;
+//			System.out.println("Deposit of " + Amount + "New balance = " + this.balance);
+//		}
+//	
+//		public void withdrawal(double withdrawalAmount) {
+//			if(this.balance - withdrawalAmount <0) {
+//				System.out.println("Only " + this.balance + " available. Withdrawal not processed");
+//			} else {
+//				this.balance -= withdrawalAmount;
+//				System.out.println("Withdrawal of " + withdrawalAmount + " process. Remaining balance = " + this.balance);
+//			}
+//		}
 
 		public double getBalance() {
 			return balance;
