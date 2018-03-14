@@ -9,12 +9,12 @@ public class Main {
 //		System.out.println(defaultCustomer.getAccountNumber());
 		
 		Customer customerEnda = new Customer("Enda", "Finglas", 1234);
-		System.out.println(customerEnda.getName());
-		System.out.println(customerEnda.getAddress());
-		System.out.println(customerEnda.getAccountNumber());
-		
-		
-	
+		customerEnda.details();
+//		System.out.println("Customer Details");
+//		System.out.println("Name: " + customerEnda.getName());
+//		System.out.println("Address: " + customerEnda.getAddress());
+//		System.out.println("Account Number: " + customerEnda.getAccountNumber());
+
 	}
 	
 
